@@ -46,6 +46,34 @@ export default {
 }
 </script>
 
-<style>
-  
+<style scoped>
+  footer {
+    box-shadow: 0 0 6px 4px black;
+    z-index: 20;
+    min-height: var(--navHeight);
+    top: 0;
+    padding: 15px;
+    text-align: center;
+    word-wrap: break-word;
+    color: #fff;
+  }
+
+  footer .info p {
+    margin: 2px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  footer .footer-item:hover {
+    scale: 1.05;
+  }
+  .footer-item {
+    margin: 5px 20px;
+  }
+
+  footer img {
+    width: 25px;
+  }
 </style>
