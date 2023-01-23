@@ -16,9 +16,7 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/">JoinUs</router-link>
           </li>
-          <li class="nav-item">
-            <router-link class="nav-link disabled">Disabled</router-link>
-          </li>
+
         </ul>
       </div>
     </div>
