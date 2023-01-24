@@ -1,11 +1,21 @@
 <template>
   <section class="sec-1">
-    <h2>Welcome!</h2>
-    <h4>To The Greatest Investment of Your Life</h4>
-  
-    <h3>EduVest! Investing into your future!</h3>
+    <div><p>.</p></div>
+    <div class="banner">
+      <h2>Welcome!</h2>
+      <h4>To The Greatest Investment of Your Life</h4>
+    
+      <h3>EduVest! Investing into your future!</h3>
 
-    <h1>{{ this.newsData.data }}</h1>
+    </div>
+
+    <div class="container">
+			<h2>Why Invest:</h2>
+			<p>Not everyone saves for retirement, and even those who do may not be putting away nearly enough to last through the retirement years. A 2020 Federal Reserve study showed that about 25% of non-retirees were not saving for retirement.1 However, everyone needs to invest to create wealth, beat inflation, and save for retirement and other financial goals.
+      <br>
+      Investing does not need to involve saving large sums of money. Due to compound interest, you can earn money on your initial amount invested plus all the accumulated interest from previous periods. While everyone should be investing, each person has a different investment strategy that fits their personal and financial goals.
+      </p>
+		</div>
 
   </section>
     <div></div>
@@ -68,7 +78,7 @@ section:nth-child(even) .section-overlay {
   background-color: rgba(0, 0, 0, 0.35);
 }
 section.sec-1 {
-  background-image: url('https://i.postimg.cc/7LdGmFry/lauren-mancke-unsplash-white-desk.jpg');
+  background-image: url('https://i.postimg.cc/05dBYjBh/towfiqu-barbhuiya-joq-WSI9u-XM-unsplash.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
@@ -81,5 +91,18 @@ section.sec-3 {
   background: url('https://i.postimg.cc/Dz84Q2Dg/georgie-cobbs-unsplash-white-wall-desk.jpg') no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+div.banner {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 80%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px auto;
+}
+div.banner>* {
+  padding: 5px;
 }
 </style>
